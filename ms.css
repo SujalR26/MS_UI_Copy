@@ -1,0 +1,363 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #262626;
+}
+.navbar{
+    height: 5%;
+    color: #262626;
+    display: flex;
+}
+.logo{
+    background-image: url("mslogo.png");
+    background-size: cover;
+    height: 22px;
+    width: 108px;
+    align-self: center;
+}
+.nav-logo{
+    width: 75%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.nav-opt{
+    width: 70%;
+    /* margin-left: 10px; */
+    font-size: 0.85rem;
+    margin-top: 3px;
+}
+.opt{
+    margin-left: 3%;
+}
+.opt2{
+    align-self: center;
+    margin-top: 3px;
+    
+}
+.selectopt{
+    height: 50px;
+    border: white;
+    /* margin-left: 2%; */
+}
+#icons{
+    margin-left: 20px;
+}
+.hvr:hover{
+    text-decoration: 2px underline solid;
+    cursor: pointer;
+}
+.heroimg{
+   
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    animation: slide 10s steps(1) 0s infinite ;
+}
+@keyframes slide {
+    0%{
+        background-image: url("Microsoft\ heroimg.avif");
+    }
+    50%{
+        background-image: url("hroimg2.avif");
+    }
+}
+
+@keyframes text {
+    0%{
+        background-color: white; 
+        box-shadow : 5px 5px 5px 5px #262626;
+    }
+    50%{
+        box-shadow: none;
+        background-color: transparent;
+    }
+}
+.heromsg{
+    width: 375px;
+    height: 220px;
+    margin-top: 50px;
+    margin-left: 60px;
+    padding: 50px;
+    animation: text 10s steps(1) 0s infinite;
+}
+.new{
+    background-color: #ffb900;
+    padding: 4px 12px;
+    color: black;
+    font-weight: 600;
+}
+.surface{
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 1.8rem;
+}
+.btn{
+    background-color: #0067b8;
+    color: white;
+    margin-top: 25px;
+    padding: 10px 15px;
+    border: none;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.shop1{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    gap: 5%;
+    font-weight: 500;
+    font-size:1rem;
+}
+.icn{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    
+}
+.msshop{
+    color: #0067b8;
+    text-decoration: underline;
+}
+.business{
+    font-size:2rem;
+    font-weight: 600;
+
+}
+
+.shop2{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin-top: 4rem;
+margin-left: 40px;
+margin-right: 40px;
+height: 80%;
+}
+
+.vrt1img{
+    background-image: url("shop2img1.avif");
+    background-size: cover;
+    height: 150px;
+    width: 270px;
+    margin-top: 10px;
+}
+.vrt2img{
+    background-image: url("shop2img2.avif");
+    background-size: cover;
+    height: 150px;
+    width: 270px;
+    margin-top: 10px;
+}
+
+.vrt3img{
+    background-image: url("shop2img3.webp");
+    background-size: contain;
+    height: 150px;
+    width: 270px;
+    margin-top: 10px;
+}
+
+.vrt4img{
+    background-image: url("shop2img4.avif");
+    background-size: cover;
+    height: 150px;
+    width: 270px;
+    margin-top: 10px;
+}
+.vrt{
+    width: 270px;
+    box-shadow: 1px 1px 1px 1px rgb(201, 201, 201);
+}
+.texts{
+    padding: 20px 20px;
+}
+.text1{
+    font-weight: 500;
+    margin-top: 20px;
+}
+.text2{
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.textof4{
+    font-weight: 500;
+}
+
+.btns{
+    background-color: #0067b8;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-weight: 600;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    transform: all 0.2s;
+}
+.btn:hover{
+    box-shadow: 1px 1px 5px 2px rgb(180, 180, 180);
+}
+.btns:hover{
+    box-shadow: 1px 1px 5px 2px rgb(193, 193, 193);
+}
+.btn1{
+    margin-top: 20px;
+}
+.btn2{
+    margin-top: 90px;
+}
+.btn3{
+    margin-top: 170px;
+}
+.btn4{
+    margin-top: 90px;
+}
+.vrt1link{
+    color: #0067b8;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+.hero2{
+    background-image: url("heroimg2.avif");
+    background-size: cover;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 550px;
+    display: flex;
+}
+.heromsg2{
+    width: 300px;
+    height: 220px;
+    background-color: transparent;
+    margin-top: 100px;
+    padding: 70px;
+    
+}
+.surface{
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 1.8rem;
+}
+.business{
+    margin-left: 65px;
+}
+.vrt5img{
+    background-image: url("shop2img5.avif");
+    background-size: cover;
+    height: 150px;
+    width: 270px;
+    margin-top: 10px;
+}
+.vrt6img{
+    background-image: url("shop2img6.avif");
+    background-size: cover;
+    height: 150px;
+    width: 270px;
+    margin-top: 10px;
+}
+
+.vrt7img{
+    background-image: url("shop2img7.avif");
+    background-size: contain;
+    height: 150px;
+    width: 270px;
+    margin-top: 10px;
+}
+
+.vrt8img{
+    background-image: url("shop2img8.webp");
+    background-size: cover;
+    height: 150px;
+    width: 270px;
+    margin-top: 10px;
+}
+
+.text5{
+    margin-top: 10px;
+    font-weight: 500;
+}
+.texts2{
+    padding: 20px 28px;
+}
+.btn5{
+    margin-top: 120px;
+}
+.btn6{
+    margin-top: 95px;
+}
+.btn7{
+    margin-top: 150px;
+}
+.btn8{
+    margin-top: 60px;
+}
+.social{
+    margin-left: 50px;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3%;
+}
+.back{
+    text-align: end;
+    margin-right: 50px;
+    
+}
+.bck{
+    background-color: #d2d2d2;
+    transition: all 0.5s ;
+    padding: 10px;
+    font-weight: 500;
+}
+.bck:hover{
+    background-color: #ededed;
+    /* box-shadow: 2px 2px 5px 1px black; */
+}
+.bck:active{
+    transition: all 1s ease-in;
+}
+@keyframes goup {
+    
+}
+.footer{
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 45%;
+    width: auto;
+}
+.normal{
+    font-size: 0.7rem;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+.heading{
+    margin-top: 20px;
+    font-size: -.8rem;
+    font-weight: 500;
+    opacity: 0.7;
+}
+.normal:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.copyright{
+    text-align: center;
+    background-color: #f1f1f1;
+}
